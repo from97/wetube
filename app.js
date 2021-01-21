@@ -3,7 +3,7 @@ import morgan from "morgan";
 import helmet from "helmet";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
-import { userRouter } from "./router";
+import { userRouter } from "./routers/userRouter";
 //const express = require('express'); === import express
 const app = express(); //call express & make express application
 
