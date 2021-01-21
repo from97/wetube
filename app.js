@@ -7,10 +7,6 @@ import { userRouter } from "./router";
 //const express = require('express'); === import express
 const app = express(); //call express & make express application
 
-const handleHome = (req, res) => res.send('HI from home');
-
-const handleProfile = (req, res) => res.send("You are on my profile");
-
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
