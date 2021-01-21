@@ -8,8 +8,7 @@ import videoRouter from "./routers/videoRouter";
 import globalRouter from "./routers/globalRouter";
 import routes from "./routes";
 
-//const express = require('express'); === import express
-const app = express(); //call express & make express application
+const app = express();
 
 app.use(cookieParser());
 app.use(bodyParser.json());
